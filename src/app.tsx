@@ -1,18 +1,17 @@
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Experience,
-  Feedbacks,
-  Hero,
-  Navbar,
-  Tech,
-  Works,
-  StarsCanvas,
-} from "./components";
+import { About } from './components/about';
+import { Contact } from './components/contact';
+import { Experience } from './components/experience';
+import { Feedbacks } from './components/feedbacks';
+import { Hero } from './components/hero';
+import { Navbar } from './components/navbar';
+import { Tech } from './components/tech';
+import { Works } from './components/works';
+
 import Banner from "./components/banner";
 import Footer from "./components/footer";
+import { StarsCanvas } from "./components";
 
 // App
 const App = () => {
